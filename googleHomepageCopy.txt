@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Homepage Copy</title>
+	</head>
+	<body>
+		<div class="top-bar">
+			<ul>
+				<li>Gmail</li>
+				<li>Images</li>
+				<li></li>
+				<li><button type="button">Sign In</button></li>
+			</ul>
+		</div>
+		<a href="http://www.google.com"><img src="./assets/google-logo.png"></a>
+		<!----Search bar here------>
+		<form>
+			<input type="text" name=""><br>
+		</form>
+		<div class="search-buttons">
+			<button type="button" type="button>Google Search</button>
+			<button type="button" type="button">I'm feeling lucky"</button>
+		</div>
+		<div class="bottom-bar">
+			<ul>
+				<li>Advertising</li>
+				<li>Business</li>
+				<li>About</li>
+				<li>Privacy</li>
+				<li>Terms</li>
+				<li>Settings</li>
+			</ul>
+		</div>
+	</body>
+</html>
