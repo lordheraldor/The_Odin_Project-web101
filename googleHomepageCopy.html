@@ -6,37 +6,35 @@
 		<link rel="stylesheet" href="./googleHomepageCopyStyles.css">
 	</head>
 	<body>
-		<div class="horizontal-bar top right">
+		<nav>
 			<ul>
-				<li>Gmail</li>
-				<li>Images</li>
-				<li></li>
-				<li><button type="button" id="sign-in-button">Sign In</button></li>
+				<li><a href="#">Gmail</a></li>
+				<li><a href="#">Images</a></li>
+				<li><a href="#" id="options"><img src="./assets/options.png" alt="Click to not change a thing"></a></li>
+				<li><a href="#" id="sign-in">Sign In</a></li>
 			</ul>
-		</div>
-		<a href="http://www.google.com"><img src="./assets/google-logo.png" alt="Click for actual Google"></a>
-		<div class="center">
-			<form>
-				<input type="text" name=""><br>
+		</nav>
+		<div id="center">
+			<a href="http://www.google.com"><img src="./assets/google-logo.png" alt="Click for actual Google"></a><br>
+			<form action="#" method="GET">
+				<input class="search-bar" type="text" name="search-bar"><br>
+				<div id="buttons">
+					<input class="search-button" type="submit" value="Google Search">
+					<input class="search-button" type="submit" value="I'm feeling lucky">
+				</div>
 			</form>
 		</div>
-		<div class="search-buttons center">
-			<button type="button" type="button">Google Search</button>
-			<button type="button" type="button">I'm feeling lucky</button>
-		</div>
-		<div class="horizontal-bar bottom">
-			<ul>
-				<div class="left">
-					<li>Advertising</li>
-					<li>Business</li>
-					<li>About</li>
-				</div>
-				<div class="right">
-					<li>Privacy</li>
-					<li>Terms</li>
-					<li>Settings</li>
-				</div>
-			</ul>
-		</div>
+		<footer>
+			<span id="left">
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+				<a href="#">About</a>
+			</span>
+			<span id="right">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+			</span>
+		</footer>
 	</body>
 </html>
