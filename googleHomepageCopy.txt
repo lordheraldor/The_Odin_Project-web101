@@ -9,7 +9,7 @@
 				<li>Gmail</li>
 				<li>Images</li>
 				<li></li>
-				<li><button type="button">Sign In</button></li>
+				<li><button type="button" id="sign-in-button">Sign In</button></li>
 			</ul>
 		</div>
 		<a href="http://www.google.com"><img src="./assets/google-logo.png"></a>
